@@ -92,4 +92,4 @@ volumes:
  
  Ну и на последок, всем прошедшим модуль 33_Airflow, посвящается эта легендарная композиция. Вы действительно стали сильнее!
  
- [!](https://www.youtube.com/watch?v=hcgI_6FZHDo)
+ [](http://img.youtube.com/vi/8EShx1Yx9uY/0.jpg)](http://www.youtube.com/watch?v=8EShx1Yx9uY)
