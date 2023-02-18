@@ -49,7 +49,7 @@ FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/HP Z2/airflow_
 
 к примеру у меня был такой (это когда я их в dags поместил): /opt/airflow/dags/data/models/
 
-Но я задался вопросом, как же все таки сделать так чтобы папка data была видна в контейнере. Как войти в контейнер вы найдете в самом задании или здесь.
+Но я задался вопросом, как же все таки сделать так чтобы папка data была видна в контейнере. Как войти в контейнер вы найдете в самом задании или [здесь](https://github.com/UzunDemir/ds-intro-my-lerning/blob/main/33_Airflow/33.1%20%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20Airflow/33.1%20%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F%20%D0%BF%D0%BE%20%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B5%20Airflow.pdf.)
 
 
 ![airflow](https://user-images.githubusercontent.com/94790150/219755070-ae14b4ed-3b57-41c7-838a-50a15c421c87.png)
