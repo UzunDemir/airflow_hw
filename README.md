@@ -14,7 +14,7 @@ Airflow home work from Skillbox ds-intro volum 33
 
 ![image](https://user-images.githubusercontent.com/94790150/219742019-e9ea88b4-0519-4d85-b501-8187d9156532.png)
 
-Мой DAG без проблем 
+Мой DAG без проблем обнаружил себя в Airflow
 
 ![image](https://user-images.githubusercontent.com/94790150/219741460-6ce73252-e556-42fd-937f-a63d2385e39a.png)
 
