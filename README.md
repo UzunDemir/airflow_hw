@@ -14,9 +14,18 @@ Airflow home work from Skillbox ds-intro volum 33
 
 ![image](https://user-images.githubusercontent.com/94790150/219742019-e9ea88b4-0519-4d85-b501-8187d9156532.png)
 
+С первого раза конечно же DAG не появился:
+
+![image](https://user-images.githubusercontent.com/94790150/219866554-e1267cdf-9990-44ff-a586-7a699cae9bbc.png)
+
+
 Мой DAG без проблем обнаружил себя в Airflow
 
 ![image](https://user-images.githubusercontent.com/94790150/219741460-6ce73252-e556-42fd-937f-a63d2385e39a.png)
+
+Но при его запуске выскочила ошибка:
+
+
 
 ![image](https://user-images.githubusercontent.com/94790150/219742311-c568c3df-cb65-463c-8cf1-8a16b479727b.png)
 
