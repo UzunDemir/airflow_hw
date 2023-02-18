@@ -59,9 +59,21 @@ FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/HP Z2/airflow_
 
 ![image](https://user-images.githubusercontent.com/94790150/219870104-2b651342-613e-4ad8-9e61-47e45e0e481b.png)
 
+Добавляем недостающие для нашего проекта папки:
 
-
-
-
-
-![airflow](https://user-images.githubusercontent.com/94790150/219755070-ae14b4ed-3b57-41c7-838a-50a15c421c87.png)
+volumes:
+    - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
+    - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
+    - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
+    .....
+    - ${AIRFLOW_PROJ_DIR:-.}/modules:/
+    - ${AIRFLOW_PROJ_DIR:-.}/data:/models
+    - ${AIRFLOW_PROJ_DIR:-.}/data:/predictions
+    .....
+    и так далее, если есть вложенные папки, тоже их укажите
+    
+ Вот и все, после этого мой DAG заработал согласно тех условиям, которые были в задании, то есть структура папок проекта была сохранена! 
+ 
+ Вот результат работы DAG:
+ 
+ ![airflow](https://user-images.githubusercontent.com/94790150/219755070-ae14b4ed-3b57-41c7-838a-50a15c421c87.png)
