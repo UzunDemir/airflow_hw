@@ -18,7 +18,11 @@ Airflow home work from Skillbox ds-intro volum 33
 
 ![image](https://user-images.githubusercontent.com/94790150/219866554-e1267cdf-9990-44ff-a586-7a699cae9bbc.png)
 
-Но воспользовавшись советом, кторый разместил коллега Dim-Dim я просто перенес папку modules с рабочими файлами в папку проекта \airflow_hw\dags и тогда мой DAG без проблем обнаружил себя в Airflow! Каки вы видите, в процессе изучения я еще добавил парочку своих шагов: my, welcome. Не обращайте на них внимания.
+Но воспользовавшись советом, кторый разместил коллега Dim-Dim 
+
+![image](https://user-images.githubusercontent.com/94790150/219868312-06546064-1bb0-40d0-97fe-c4361974b06a.png)
+
+я просто перенес папку modules с рабочими файлами в папку проекта \airflow_hw\dags и тогда мой DAG без проблем обнаружил себя в Airflow! Каки вы видите, в процессе изучения я еще добавил парочку своих шагов: my, welcome. Не обращайте на них внимания.
 
 ![image](https://user-images.githubusercontent.com/94790150/219741460-6ce73252-e556-42fd-937f-a63d2385e39a.png)
 
