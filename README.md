@@ -40,7 +40,7 @@ FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/HP Z2/airflow_
 
 Вот борьба с этой ошибкой заняла больше всего времени!
 
-Многочисленные поиски по нашему уважаемому телеграмм-каналу, [мучения Dim-Dim](https://github.com/UzunDemir/airflow_hw/blob/main/33.pdf), и конечно же ознакомление с [официальной документацией airflow](https://airflow.apache.org/docs/apache-airflow/stable/start.html) я тут же пробовал для нахождения верного пути для того чтобы DAG увидел эти файлы. Необходимо также отметить поддержку вот этих ребят (@Stas_the_company и @eugix), которые подкидывали мне идеи для решения этой проблемы.
+Многочисленные поиски по нашему уважаемому [телеграмм-каналу](https://web.telegram.org/z/#-1566722556), [мучения Dim-Dim](https://github.com/UzunDemir/airflow_hw/blob/main/33.pdf), и конечно же ознакомление с [официальной документацией airflow](https://airflow.apache.org/docs/apache-airflow/stable/start.html) я тут же пробовал для нахождения верного пути для того чтобы DAG увидел эти файлы. Необходимо также отметить поддержку вот этих ребят (@Stas_the_company и @eugix), которые подкидывали мне идеи для решения этой проблемы.
 Так например, @eugix предположил, что DAG не находит пути потому что в моем - есть папки с пробелами 
 
 (C:\Users\HP Z2\airflow_hw\dags). 
