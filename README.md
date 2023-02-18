@@ -22,8 +22,18 @@ Airflow home work from Skillbox ds-intro volum 33
 
 ![image](https://user-images.githubusercontent.com/94790150/219741460-6ce73252-e556-42fd-937f-a63d2385e39a.png)
 
+Это конечно же нарушало условия задачи, стпуктура проекта должна была быть такой:
+
+![image](https://user-images.githubusercontent.com/94790150/219867488-70cfe528-e74a-4493-97f3-4520fc8b583e.png)
+
+но поверьте, это не такая срашная проблема, позже я вам покажу как добавить в контейнер папки, которые он будет видеть. Большую проблему для меня  доставил вопрос указания верного пути, для того, чтобы заработали файлы pipeline.py и predict.py. Но пока, мой DAG упорно не запускался и выдавал такую ошибку:
+
+FileNotFoundError: [Errno 2] No such file or directory: 'C:/Users/HP Z2/airflow_hw/data/train/homework.csv'
+
+
 Но при его запуске выскочила ошибка:
 
+![image](https://user-images.githubusercontent.com/94790150/219867310-99fde76d-4944-4ac0-839f-9e70c79cae74.png)
 
 
 ![image](https://user-images.githubusercontent.com/94790150/219742311-c568c3df-cb65-463c-8cf1-8a16b479727b.png)
